@@ -1,6 +1,6 @@
 # Custom User Model
 
-Custom User Model | Authenticate with Email | Authenticate with Phone
+Custom User Model | [Authenticate with Email](#usage-authentication-with-email) | [Authenticate with Phone](#usage-authentication-with-phone)
 
 ## Usage (Authentication with Email)
 
