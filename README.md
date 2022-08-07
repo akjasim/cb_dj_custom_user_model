@@ -8,7 +8,7 @@ Custom User Model | [Authenticate with Email](#usage-authentication-with-email) 
 ```python
 from django.contrib.auth.models import AbstractUser, BaseUserManager
 from django.db import models
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 
 class CustomUserManager(BaseUserManager):
@@ -61,7 +61,7 @@ AUTH_USER_MODEL = 'accounts.CustomUser'
 ```python
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.contrib.auth import get_user_model
 
 
@@ -157,7 +157,7 @@ urlpatterns = [
 ```python
 from django.contrib.auth.models import AbstractUser, BaseUserManager
 from django.db import models
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 
 class CustomUserManager(BaseUserManager):
@@ -209,7 +209,7 @@ AUTH_USER_MODEL = 'accounts.CustomUser'
 ```python
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.contrib.auth import get_user_model
 
 
