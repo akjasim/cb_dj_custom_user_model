@@ -192,7 +192,7 @@ class CustomUserManager(BaseUserManager):
 
 class CustomUser(AbstractUser):
     username = None
-    phone = IntegerField(max_length=10, unique=True, verbose_name='Phone Number', blank=False, help_text='Enter 10 digits phone number')
+    phone = models.IntegerField(max_length=10, unique=True, verbose_name='Phone Number', blank=False, help_text='Enter 10 digits phone number')
 
     USERNAME_FIELD = 'phone'
     REQUIRED_FIELDS = []
